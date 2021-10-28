@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+
+}
+
+body{
+    font-family: "Maven Pro";
+    background-color: #fbf2ff;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: -2%;
+    margin-left: -2%;
+    margin-right: -2%;
+    height: 30%;
+}
+.box{
+    background-image: radial-gradient(ellipse at 86% 0, #003a5c, #00365f, #022b66, #041770, #12087b, #370c86, #5a108e, #741394, #7e1496  100%);
+    padding-top: 5em;
+    padding-bottom: 2em;
+    margin-bottom: 100px;
+    /*background: linear-gradient(135deg, #003a5c, #00365f, #022b66, #041770, #12087b, #370c86, #5a108e, #741394, #7e1496);*/
+}
+.box img{
+    max-height: 10em;
+    border-radius: 50%;
+}
+h1{
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+a{
+    color: #ea357a;
+}
+#on-the-fly{
+    margin-top: 200px;
+    padding-top: 2%;
+    padding-bottom: 100%;
+    text-align: center;
+    font-size: 1em;
+    background-color: #1a053f;
+    min-height: max-content;
+}
