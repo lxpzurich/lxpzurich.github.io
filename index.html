@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://integrate.depay.fi/buttons/v3.js"></script>
-  <noscript><a href="https://depay.fi">DePay</a> is currently not supported without JavaScript enabled.</noscript>
+  
 </head>
 
 
@@ -40,8 +40,9 @@
   widget="Donation"
   configuration='{"amount":{"start":10,"min":1,"step":1},"token":"0xdac17f958d2ee523a2206206994597c13d831ec7","blockchains":["ethereum","bsc"],"receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"}'
 ></div>
-<script>DePayButtons.init({document: document});</script>
- 
+<script>DePayButtons.init({document: this.document});</script>
+<noscript><a href="https://depay.fi">DePay</a> is currently not supported without JavaScript enabled.</noscript> 
+
   <div id="on-the-fly">
     <img src="https://avatars.githubusercontent.com/u/70477508?s=100&v=4"/>
     <p>DePay converts any Token from your wallet <i>on-the-fly</i> to the recipients preferred one.</p>
