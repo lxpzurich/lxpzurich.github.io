@@ -23,7 +23,8 @@ body{
 .box img{
     max-height: 10em;
     border-radius: 50%;
-    border: 5px solid rgb(0 0 0 / 40%);
+    border: 7px solid rgb(0 0 0 / 10%);
+    animation:pulsecolor2 8s infinite;
 }
 h1{
     font-weight: bold;
@@ -100,4 +101,7 @@ p {
   
   @keyframes pulsecolor {
     10% {background: #7e1496}
+  }
+  @keyframes pulsecolor2 {
+    15% {background: #ea357a}
   }
