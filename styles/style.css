@@ -6,12 +6,8 @@ html{
 
 body{
     font-family: 'Maven Pro', sans-serif;
-    background-color: #fbf2ff;
     color:rgb(231, 231, 231);
     text-align: center;
-    margin: -2%;
-    margin-left: -2%;
-    margin-right: -2%;
     height: 30%;
 }
 .box{
@@ -35,24 +31,21 @@ h1{
 a{
     color: #ea357a;
 }
-#on-the-fly{
-    background-image:
+#on-the-fly 
+{
+  background-image:
     linear-gradient(217deg, rgba(29, 19, 70, 0.699), rgba(56, 31, 167, 0) 70.71%),
     linear-gradient(127deg, rgba(11, 11, 12, 0.8), rgba(20, 45, 56, 0) 30.71%),
     linear-gradient(336deg, rgba(226, 226, 226, 0.8), rgba(23, 23, 56, 0) 70.71%);
-    margin-top: 200px;
-    padding-top: 2.5em;
-    padding-bottom: 50%;
-    text-align: center;
-    font-size: 1em;
-    background-color: #1a053f;
-    min-height: 50%;
-    width: 100%;
+  margin-top: 200px;
+  padding-top: 2.5em;
+  padding-bottom: 50%;
+  text-align: center;
+  font-size: 1em;
+  background-color: #1a053f;
+  min-height: 50%;
+  width: 100%;
 }
-.Dialog {
-    color: #1a053f !important;
-}
-
 
 p {
     display: block;
@@ -102,5 +95,73 @@ p {
     10% {background: #7e1496}
   }
   @keyframes pulsecolor2 {
-    15% {background: #ea357a}
+    15% {background: #5a108e}
   }
+
+header{
+	margin: 2em 0 1em;
+	font-size: 12.2px;
+	text-align:center;
+	position:relative;
+}
+
+
+hr{
+    top: 0px;
+    position: absolute;
+    border-top: 5px solid;
+    border-color:#0c0558;
+	z-index:-1;
+	width:100%;
+	margin:0;
+    animation:pulsecolor 2s infinite;
+}
+hr.right{
+	left:auto;
+	right:0px;
+    }
+
+hr#thread5{
+	border-color:#7e1496;
+	-webkit-animation: thread2 10s infinite;
+  	-moz-animation:    thread2 10s infinite;
+  	-o-animation:      thread2 10s infinite;
+  	animation:         thread2 10s infinite;	
+}
+hr#thread6{
+	-webkit-animation: thread2 4s infinite;
+  	-moz-animation:    thread2 4s infinite;
+  	-o-animation:      thread2 4s infinite;
+  	animation:         thread2 4s infinite;	
+}
+
+hr {
+	border-width:3px;
+ }
+
+
+
+@-webkit-keyframes thread2 {
+	  0%   { width: 100%; }
+	  50% { width: 100%; }
+	  80% { width: 0px;}
+	  100%{ width:100%;}
+	}
+	@-moz-keyframes thread2 {
+	  0%   { width: 100%; }
+	  50% { width: 100%; }
+	  80% { width: 0px;}
+	  100%{ width:100%;}
+	}
+	@-o-keyframes thread2 {
+	  0%   { width: 100%; }
+	  50% { width: 100%; }
+	  80% { width: 0px;}
+	  100%{ width:100%;}
+	}
+	@keyframes thread2 {
+	  0%   { width: 100%; }
+	  50% { width: 100%; }
+	  80% { width: 0px;}
+	  100%{ width:100%;}
+}
