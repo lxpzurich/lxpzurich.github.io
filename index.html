@@ -19,11 +19,11 @@
   <link rel="icon" href="">
   <link rel="icon" href="" type="image/svg+xml">
   <link rel="apple-touch-icon" href="">
-  <script src="https://integrate.depay.fi/buttons/v4.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
   </style>
+  <script type="module" src="https://integrate.depay.fi/buttons/v4.js"></script>
 </head>
 
 
@@ -36,38 +36,12 @@
   </div>
   <div
    class="DePayButton"
-   label="Pay"
-   widget="Payment"
-   configuration="accept':[{'blockchain':'ethereum','token':'0x55d398326f99059ff775485246999027b3197955','receiver':'0xB7a69aF4c83bCD6797B382528944A686A3e84b9b'},{'blockchain':'bsc','token':'0xe9e7cea3dedca5984780bafc599bd69add087d56','receiver':'0xB7a69aF4c83bCD6797B382528944A686A3e84b9b'}]" >
+   label="Donate"
+   widget="Donation"
+   configuration='{"accept":[{"blockchain":"ethereum","token":"0x55d398326f99059ff775485246999027b3197955","receiver": "0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"},{"blockchain": "bsc","token":"0xe9e7cea3dedc5984780bafc599bd69add087d56","receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"}]}' >
   </div>
-
 <noscript><a href="https://depay.fi">DePay</a> is currently not supported without JavaScript enabled.</noscript>
 <script>DePayButtons.init({document: document});</script>
-
-<!--- 
-  
-  - Last time, this.document fixed something
-  
-  - Console log when running locally:
-
-    v4.js:6091 WebSocket connection to 'wss://h.bridge.walletconnect.org/?env=browser&host=&protocol=wc&version=1' failed: 
-    _socketCreate @ v4.js:6091
-    open @ v4.js:6091
-    _initTransport @ v4.js:6093
-    l @ v4.js:6093
-    _ @ v4.js:6093
-    newWalletConnectInstance @ v4.js:61439
-    WalletConnectWallet @ v4.js:61423
-    (anonymous) @ v4.js:61557
-    (anonymous) @ v4.js:4
-    (anonymous) @ v4.js:5
-
-  - Moved script src to header
-
-  - Diff "" 
-    configuration='"accept":[{"blockchain":"ethereum","token":"0x55d398326f99059ff775485246999027b3197955","receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"},{"blockchain":"bsc","token":"0xe9e7cea3dedca5984780bafc599bd69add087d56","receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"}]"'
-
----> 
 
 <div id="on-the-fly">
     <img src="https://avatars.githubusercontent.com/u/70477508?s=100&v=4"/>
