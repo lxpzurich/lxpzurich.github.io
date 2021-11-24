@@ -1,0 +1,29 @@
+.bgcustom {
+    background-image: radial-gradient(ellipse at 86% 0, #003a5c, #00365f, #022b66, #041770, #12087b, #370c86, #5a108e, #741394, #7e1496  100%);
+}
+
+.hero-body .title {
+    color: #ea357a;
+}
+
+#hero-subtitle-span {
+    color: #00365f;
+    font-weight: bold;
+    background-color: #fffafacb;
+    padding: 0.2% 1% 0.2% 1%;
+    font-size: 90%;
+}
+
+.bgcustom {
+    background-image: radial-gradient(ellipse at 86% 0, #003a5c, #00365f, #022b66, #041770, #12087b, #370c86, #5a108e, #741394, #7e1496  100%);
+}
+
+
+.twitterbox{
+    padding-left: 1em;
+    padding-right: 1em;
+    -webkit-box-shadow: inset 0px 2px 21px -7px #022b6610; 
+    box-shadow: inset 0px 2px 21px -7px #022b6610;
+    font-size: 1em !important;
+}
+

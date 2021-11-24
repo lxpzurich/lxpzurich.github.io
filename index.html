@@ -1,55 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>(1) Send a Web3 Crypto Donation to Alex via Github Pages. DePay Web3 Payment Protocol Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/stylesheet-web3.css">
+    <link href='assets/favicon-web3-payments-donation-depay.png' rel='shortcut icon'>
+  </head>
+  <body>
+    <div class="hero-body bgcustom">
+      <div class="hero-body has-text-centered">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>❤️ Support Alexander Paul (@lxpzurich) with a Web3 Donation!</title>
-  <meta name="description" content="Support me">
-  <meta name="author" content="lxpzurich">
-
-  <meta property="og:title" content="❤️ Support Alexander Paul (@lxpzurich) with a Web3 Donation!">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="">
-  <meta property="og:description" content=".">
-  <meta property="og:image" content="">
-  <meta name="twitter:dnt" content="on">
-
-  <link rel="icon" href="">
-  <link rel="icon" href="" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="">
-  <link rel="stylesheet" href="styles/style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
-  </style>
-</head>
-
-
-<body>
-<div class="header"></div>
-  <div class="box">
-    <img src="https://avatars.githubusercontent.com/u/56917408" />
-    <h1>Support <a href="https://github.com/lxpzurich">@lxpzurich</a> </br>with a Web3 Donation</h1>
-    <div id="pulsingheart"></div>
-  </div>
-  <div
-   class="DePayButton"
-   label="Donate"
-   widget="Donation"
-   configuration='{"accept":[{"blockchain":"ethereum","token":"0xdac17f958d2ee523a2206206994597c13d831ec7","receiver": "0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"},{"blockchain": "bsc","token":"0xe9e7cea3dedca5984780bafc599bd69add087d56","receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"}]}' >
-  </div>
-<script src="https://integrate.depay.fi/buttons/v4.js"></script>
-<noscript><a href="https://depay.fi">DePay</a> is currently not supported without JavaScript enabled.</noscript>
-<script>DePayButtons.init({document: document});</script>
-
-<div id="on-the-fly">
-    <img src="https://avatars.githubusercontent.com/u/70477508?s=100&v=4"/>
-    <p>DePay converts any Token from your wallet <i>on-the-fly</i> to the recipients preferred one.</p>
-    <p><b>Accept Web3 Donations on Github with <b></b><a href="https://depay.fi/">DePay</a>.</b></p>
+        <p class="title">
+          Send a Web3 Donation to Alex
+        </p>
+        <p class="subtitle">
+          <span id="hero-subtitle-span">Donate any ETH or BSC Token with DePay</span>
+          
+        </p>
+      </div>
+    </div> 
+    <section>
+      <div class="tabs is-small is-centered">
+        <ul>
+          <li class="is-active"><a>Donate Crypto</a></li>
+          <li><a href="#alexwho">Alex who?</a></li>
+          <li><a href="#depaywhat">DePay what?</a></li>
+          <li><a href="#redonations">Redonations</a></li>
+        </ul>
+      </div>
+    </section>
     
-  </div>
+    <section>
+      <div class="hero-body">
+        <div
+        class="DePayButton"
+        label="Donate"
+        widget="Donation"
+        configuration='{"accept":[{"blockchain":"ethereum","token":"0xdac17f958d2ee523a2206206994597c13d831ec7","receiver": "0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"},{"blockchain": "bsc","token":"0xe9e7cea3dedca5984780bafc599bd69add087d56","receiver":"0xB7a69aF4c83bCD6797B382528944A686A3e84b9b"}]}' >
+        </div>
+      
+        <script src="https://integrate.depay.fi/buttons/v4.js"></script>
+        <noscript><a href="https://depay.fi">DePay</a> is currently not supported without JavaScript enabled.</noscript>
+        <script>DePayButtons.init({document: document});</script>
+    </section>
 
-<br /><br /><br /><br />
+
+      <div class="container is-fluid">
+        <div class ="container" id="alexwho">
+          <div class="columns">
+            <div class="column">
+              <p class="title"">Alex who?</p><br/>
+              <div class="content">
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-64x64">
+                  <img src="https://avatars.githubusercontent.com/u/56917408" class="is-rounded">
+                </p>
+              </figure>
+              
+              <p><b>Hi friend. I am Alex Paul, CMO & Co-Founder of <a href="https://depay.fi">DePay</a></b>.<br /><br /></p>
+            </article>
+              <p>This page serves as a demo to show how easy it is to receive decentralized multichain donations (and payments in general) with DePay's <a href="https://github.com/depayfi">Open Source Web3 Payment protocol</a>.</p>
+                <p></p>Read my "Redonation Plan" that describes what I will do with incoming donations. I don't expect to receive any but in case you can not resist of sending me "free money" (😛), rest assured I will do something useful with it.</p>
+                <p></p><b>Btw.:</b> The greatest Donation for our team is <a href="https://depay.fi/documentation">the integration & utility of our Web3 payment solution</a> in your project.</p>
+                <p></p>Feel free to <a href="https://t.me/depayfi">join DePay's Telegram group</a> to chat with us.</p>
+                
+            </div>
+          </div>
+            
+            <div class="column twitterbox" style="height: 400px; overflow:scroll;">
+              <p class="title"">My twitter timeline</p><br/>
+              <a class="twitter-timeline" data-lang="en" data-dnt="true" max-height="350px" href="https://twitter.com/DePayPaul?ref_src=twsrc%5Etfw">Tweets by DePayPaul</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      
+        <hr/>
+        <br /> <br />
+        <div class="container" id="depaywhat">
+          <p class="title"">DePay what?</p>
+          <div style="height: 400px; overflow: auto;" class="content">
+            <div class="image is-128x128 is-pulled-left">
+              <img src="assets/DePay-web3.png"/>
+            </div>
+            <p>DePay simplifies and improves Web3 Payments with the power of DeFi. Accept any token with on-the-fly conversion.</p>
+
+            <p>The first truly decentralized payment protocol which addresses the downside of centralization. It's built on top of decentralized finance using state-of-the art Web3 technologies in order to offer a seamless payment experience.</p>
+
+            <p></p>ETHOnline Finalist 2020, made in Switzerland (Crypto Valley).
+
+            <h3>DePay tools include</h3>
+
+          <ul>
+            <li><span class="tag is-info is-normal"><b>Payments</b></span> - Accept Cryptocurrencies</li>
+            <li><span class="tag is-info is-normal"><b>Sales</b></span> - Sell your Token</li>
+            <li><span class="tag is-info is-normal"><b>Donations</b></span> - Receive Crypto support</li>
+            <li><span class="tag is-info is-normal"><b>Subscriptions</b></span> - Recurring payments</li>
+            <li><span class="tag is-info is-normal"><b>Swap</b></span>: - Best price swap</li>
+            <li><span class="tag is-info is-normal"><b>Payroll</b></span> - Payroll streams</li>
+            <li><span class="tag is-info is-normal"><b>Wallet</b></span> - Payments & DeFi</li>
+            <li><span class="tag is-info is-normal"><b>Credit</b></span> - Streams as collateral</li>
+            <li><span class="tag is-info is-normal"><b>DePay PRO</b></span> - Analytics & Insights</li>
+          </ul>
+
+            <h3>The DePay difference</h3>
+
+            <h4>Chain Agnostic (Multichain)</h4>
+            <p>DePay is extensible around any blockchain, ensuring a competitive cross-chain future.</p>
+
+            <h4>Permissionless</h4>
+            <p>No one can be technically excluded from using DePay and no registration is required.</p>
+
+            <h4>Trustless</h4>
+            <p>Every intermediate step is replaced by smart contracts which are connected to decentralized liquidity pools.</p>
+
+            <h4>Easy to use</h4>
+            <p>Our ambition was to create an even easier user experience than you're used to from shopping in current non-crypto e-commerce stores.</p>
+
+            <h4>Open Source</h4>
+            <p>The DePay protocol will always remain open source.</p>
+
+            <h4>Multinetwork</h4>
+            <p>DePay automatically detects & switches the network if required.</p>
+          </div>
+          <br />
+          <p class="title"">TLDR?</p>
+          <iframe src="https://anchor.fm/bscnews/embed/episodes/Episode-73-A-Conversation-With-Depay-e18nmi2/a-a6modl4" width="100%" frameborder="0" scrolling="no"></iframe>
+          
+        </div><br />
+        <hr />
+
+        <div class="container content" id="redonations">
+          <p class="title"">Redonation plan</p>
+          <p>Maybe you want to try out the DePay Donation widget but wonder where the money will go. No worries, I won't spend it on 🍺 & 🍔</p>
+          <p>Any token sent to my address (0xB7a69aF4c83bCD6797B382528944A686A3e84b9b) will be automatically converted to USDT.</p>
+          <p>I will re-donate all accumulated donations that I receive (every 1-6 months) to:</p>
+          <p><a href="#">Various NGO's standing up for animals, human rights & mental health</a> - <b>50%</b></p>
+          <p><a href="https://gitcoin.co/grants/">Gitcoin Grants</a> - <b>25%</b></p>
+          <p><a href="https://www.eff.org/">Electronic Frontier Foundation</a> - <b>25%</b></p>
+          
+          <p>All potential re-donations will be updated on this site.</p><br /><br />
+        
+        </div>
+
+        </div>
+        
+    
+    
+      </div>
+  </div>
+  
+  
+ 
+  
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>
