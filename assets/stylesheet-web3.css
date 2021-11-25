@@ -2,6 +2,9 @@
     background-image: radial-gradient(ellipse at 86% 0, #003a5c, #00365f, #022b66, #041770, #12087b, #370c86, #5a108e, #741394, #7e1496  100%);
 }
 
+.hero-body{
+    padding: 2rem 1.5rem;
+}
 .hero-body .title {
     color: #ea357a;
 }
@@ -27,3 +30,7 @@
     font-size: 1em !important;
 }
 
+.web3navi{
+    -webkit-box-shadow: -1px -2px 8px #12087b;
+    box-shadow: -1px -2px 8px #12087b;
+}
