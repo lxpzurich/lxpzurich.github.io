@@ -6,7 +6,7 @@ I am demonstrating here how easy it is to build a static clientside Crypto Donat
 
 ----
 
-![Accept decentralized crypto donations on Github](decentralized-web3-donations.gif)
+![Accept decentralized crypto donations on Github](https://github.com/lxpzurich/lxpzurich/blob/main/decentralized-web3-donations.gif)
 <br />
 
 ----
