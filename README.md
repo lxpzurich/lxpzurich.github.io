@@ -1,6 +1,6 @@
 # Demo: How to accept truly decentralized Crypto Donations (Web3 donations) right on GitHub Pages
 
-This is a for #buidlers to demonstrate how easy it is to build a static client-only page with the purpose of receiving Crypto donations (with any tokens).
+I am demonstrating here how easy it is to build a static client-only page with the purpose of receiving Crypto Donations (with any tokens & on-the-fly conversion to your configured asset). The routing is based on decentralized liquidity pools (e.g. Uniswap).
 
 ## How-to replicate this?
 
