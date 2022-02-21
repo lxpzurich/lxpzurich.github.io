@@ -2,9 +2,16 @@
 
 I am demonstrating here how easy it is to build a static clientside Crypto Donation page with the purpose of receiving support or funding for your projects (with any tokens & on-the-fly conversion to your configured asset). The routing is based on decentralized liquidity pools (e.g. Uniswap).
 
+- **Demo-URL**: https://lxpzurich.github.io
+
 ## How-to replicate this?
 
 I wrote an article on Medium about the setup: 
 https://medium.com/depay/breakthrough-decentralized-donations-on-github-pages-da9b23994eca
 
-Please share with your peers if you like it :)
+The example utilizes the (Open Source) Crypto Payment Protocol by DePay: 
+- [DePay Documentation | Accept any token with on-the-fly conversion (multichain payments)](https://depay.fi/documentation)
+- **Github**: @DePayFi
+
+
+Please share with your peers if you like it 🙏
