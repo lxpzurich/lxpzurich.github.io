@@ -4,6 +4,13 @@ I am demonstrating here how easy it is to build a static clientside Crypto Donat
 
 - **Demo-URL**: https://lxpzurich.github.io
 
+----
+
+![Accept decentralized crypto donations on Github](decentralized-web3-donations.gif)
+<br />
+
+----
+
 ## How-to replicate this?
 
 I wrote an article on Medium about the setup: 
@@ -15,3 +22,8 @@ The example utilizes the (Open Source) Crypto Payment Protocol by DePay:
 
 
 Please share with your peers if you like it 🙏
+
+<br><br><br>
+----
+
+#web3 #crypto-donations #accept-cryptocurrency
